@@ -60,6 +60,11 @@ a{
     display: inline;
 }
 
+
+.studio-name{
+    color: #212121;
+}
+
 .portfolio{
     margin-right: 50px;
         font-family: 'Roboto';
@@ -69,7 +74,6 @@ a{
         line-height: 16px;
         letter-spacing: 0.02em;
         display: inline;
- 
 }
 
 .portfolio-name{
