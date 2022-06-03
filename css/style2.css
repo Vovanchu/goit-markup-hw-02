@@ -1,8 +1,9 @@
 body{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', serif;
     font-family: 'Roboto', sans-serif;;
     background: #FFFFFF;
-    width: auto;
+    width: 100%;
+    height: 100%;
     display: inline-block;
     vertical-align: top;
 }
@@ -135,6 +136,7 @@ a{
 
 .section1-list{
     display: inline-flex;
+    flex-wrap: wrap;
 }
 
 .list-button{
@@ -155,10 +157,10 @@ a{
 }
 
 .section2-list{
-    display: inline-flex;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
 }
+
 
 /* footer */
 
