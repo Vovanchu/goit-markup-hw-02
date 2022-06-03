@@ -2,7 +2,7 @@ body{
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;;
     background: #FFFFFF;
-    min-width: 1600px;
+    width: auto;
     display: inline-block;
     vertical-align: top;
 }
@@ -60,6 +60,10 @@ a{
     display: inline;
 }
 
+.studio-name {
+    color: #212121;
+}
+
 .portfolio{
     margin-right: 50px;
         font-family: 'Roboto';
@@ -103,7 +107,7 @@ a{
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.02em;
-        color: #2196F3;
+        color: #757575;
         display: inline;
 }
 
@@ -123,11 +127,38 @@ a{
     border: 1px solid #ECECEC;
 }
 
+.section1{
+    margin-top: 94px;
+    margin-left: 495px;
+    margin-bottom: 34px;
+}
+
 .section1-list{
     display: inline-flex;
 }
 
+.list-button{
+    background: #F5F4FA;
+        border-radius: 4px;
+}
 
+.button{
+    margin-right: 8px;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+
+.section2-list{
+    display: inline-flex;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+}
 
 /* footer */
 
