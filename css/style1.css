@@ -59,13 +59,17 @@ a{
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #2196F3;
     display: inline;
 }
 
 
 .studio-name{
     color: #212121;
+}
+
+.studio-name:hover,
+.studio-name:focus{
+    color: #2196F3;
 }
 
 .portfolio{
@@ -83,6 +87,11 @@ a{
     color: #212121;
 }
 
+.portfolio-name:hover,
+.portfolio-name:focus{
+    color: #2196F3;
+}
+
 .contacts{
         font-family: 'Roboto';
         font-style: normal;
@@ -95,6 +104,11 @@ a{
 
 .contacts-name{
     color: #212121;
+}
+
+.contacts-name:hover,
+.contacts-name:focus {
+    color: #2196F3;
 }
 
 .mg-tel{
@@ -110,8 +124,13 @@ a{
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.02em;
-        color: #2196F3;
+        color: #757575;
         display: inline;
+}
+
+.gm:hover,
+.gm:focus{
+    color: #2196F3;
 }
 
 .tel{
@@ -124,6 +143,11 @@ a{
         letter-spacing: 0.02em;
         color: #757575;
         display: inline;
+}
+
+.tel:hover,
+.tel:focus{
+    color: #2196F3;
 }
 
 .section1{
@@ -397,6 +421,11 @@ ul.img-example > li{
         margin-bottom: 10px;
 }
 
+.footer-gm:hover,
+.footer-gm:focus{
+    color: #2196F3;
+}
+
 .footer-tel{
     font-family: 'Roboto';
         font-style: normal;
@@ -407,4 +436,7 @@ ul.img-example > li{
         color: rgba(255, 255, 255, 0.6);
 }
 
-
+.footer-tel:hover,
+.footer-tel:focus {
+    color: #2196F3;
+}
