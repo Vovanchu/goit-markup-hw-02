@@ -1,9 +1,14 @@
+html,
+body{
+    max-width: 100%;
+        overflow-x: hidden;
+}
+
 body{
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;;
     background: #E5E5E5;
-    display: inline-block;
-    vertical-align: top;
+    display: block;
     height: 100%;
     width: 100%;
 }
@@ -259,11 +264,14 @@ a{
         text-align: center;
         letter-spacing: 0.03em;
         color: #212121;
-        
 }
 
 ul.img-example > li{
     display: inline-block;
+}
+
+.img-example{
+    margin-left: 150px;
 }
 
 .img1{
@@ -303,7 +311,7 @@ ul.img-example > li{
         display: flex;
         margin-top: 50px;
         padding-bottom: 94px;
-        margin-left: 215px;
+        margin-left: 300px;
 }
 
 .worker1{
