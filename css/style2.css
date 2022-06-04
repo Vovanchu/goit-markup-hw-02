@@ -130,7 +130,7 @@ a{
 
 .section1{
     margin-top: 94px;
-    margin-left: 495px;
+    margin-left: 600px;
     margin-bottom: 34px;
 }
 
@@ -141,7 +141,7 @@ a{
 
 .list-button{
     background: #F5F4FA;
-        border-radius: 4px;
+    border-radius: 4px;
 }
 
 .button{
@@ -156,16 +156,34 @@ a{
         color: #212121;
 }
 
+.section2{
+    margin-left: 305px;
+    margin-bottom: 94px;
+    justify-content:center;
+}
+
 .section2-list{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 34px;
+    width: 1400px;
+}
+
+.list-exp{
+    position: relative;
+    box-sizing: border-box;
+    margin-right: 30px;
+    margin-bottom: 30px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
 }
-
 
 /* footer */
 
 .footer{
     background: #2F303A;
+    height: 100%;
 }
 
 .footer-link {
@@ -176,27 +194,26 @@ a{
     line-height: 31px;
     letter-spacing: 0.03em;
     color: #2196F3;
-    margin-left: 200px;
+    padding-left: 200px;
     padding-top: 60px;
     margin-bottom: 20px;
 }
 
 .footer-accent {
     font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    color: #000000;
-    padding-top: 60px;
-    margin-bottom: 20px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
 }
 
 .footer-list{
     padding-left: 165px;
     margin-bottom: 60px;
 }
+
 .footer-address{
     font-family: 'Roboto';
         font-style: normal;
@@ -205,6 +222,8 @@ a{
         line-height: 24px;
         letter-spacing: 0.03em;
         color: #FFFFFF;
+        margin-top: 20px;
+        margin-bottom: 10px;
 }
 
 .footer-gm{
@@ -213,11 +232,9 @@ a{
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
-        /* or 171% */
-    
         letter-spacing: 0.03em;
-    
         color: rgba(255, 255, 255, 0.6);
+        margin-bottom: 10px;
 }
 
 .footer-tel{

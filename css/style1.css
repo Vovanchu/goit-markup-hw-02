@@ -360,12 +360,12 @@ ul.img-example > li{
 
 .footer-accent {
     font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    color: #000000;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
     padding-top: 60px;
     margin-bottom: 20px;
 }
@@ -382,6 +382,8 @@ ul.img-example > li{
         line-height: 24px;
         letter-spacing: 0.03em;
         color: #FFFFFF;
+        margin-top: 20px;
+        margin-bottom: 10px;
 }
 
 .footer-gm{
@@ -390,11 +392,9 @@ ul.img-example > li{
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
-        /* or 171% */
-    
         letter-spacing: 0.03em;
-    
         color: rgba(255, 255, 255, 0.6);
+        margin-bottom: 10px;
 }
 
 .footer-tel{
@@ -403,10 +403,7 @@ ul.img-example > li{
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
-        /* or 171% */
-    
         letter-spacing: 0.03em;
-    
         color: rgba(255, 255, 255, 0.6);
 }
 
