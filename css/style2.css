@@ -1,21 +1,13 @@
-html,
-body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
 body{
     font-family: 'Raleway', serif;
     font-family: 'Roboto', sans-serif;;
     background: #FFFFFF;
-    width: 100%;
-    height: 100%;
     display: inline-block;
     vertical-align: top;
 }
 
-li{
-    list-style-type: none;
+ul{
+    list-style: none;
 }
 
 a{
@@ -23,8 +15,6 @@ a{
 }
 
 .header{
-    padding-top: 20px;
-    padding-bottom: 20px;
     background: #FFFFFF;
     display: inline-flex;
 }
@@ -56,17 +46,11 @@ a{
 }
 
 .studio{
-    margin-right: 50px;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #2196F3;
-    display: inline;
 }
-
 .studio-name {
     color: #212121;
 }
@@ -77,15 +61,11 @@ a{
 }
 
 .portfolio{
-    margin-right: 50px;
-        font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.02em;
-        display: inline;
- 
 }
 
 .portfolio-name{
@@ -98,13 +78,10 @@ a{
 }
 
 .contacts{
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.02em;
-        display: inline;
 }
 
 .contacts-name{
@@ -116,21 +93,12 @@ a{
     color: #2196F3;
 }
 
-.mg-tel{
-    display: inline-flex;
-}
-
 .gm{
-    margin-left: 331px;
-    margin-right: 50px;
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.02em;
         color: #757575;
-        display: inline;
 }
 
 .gm:hover,
@@ -139,15 +107,11 @@ a{
 }
 
 .tel{
-    margin-right: 215px;
-        font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.02em;
         color: #757575;
-        display: inline;
 }
 
 .tel:hover,
@@ -159,57 +123,20 @@ a{
     border: 1px solid #ECECEC;
 }
 
-.section1{
-    margin-top: 94px;
-    margin-left: 700px;
-    margin-bottom: 34px;
-}
-
-.section1-list{
-    display: inline-flex;
-    flex-wrap: wrap;
-}
-
 .list-button{
     background: #F5F4FA;
     border-radius: 4px;
 }
 
 .button{
-    margin-right: 8px;
     font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 26px;
-        text-align: center;
         letter-spacing: 0.03em;
         color: #212121;
         cursor: pointer;
-}
-
-.section2{
-    margin-left: 305px;
-    margin-bottom: 94px;
-    justify-content:center;
-    flex-grow: 1;
-}
-
-.section2-list{
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-top: 34px;
-    width: 1400px;
-}
-
-.list-exp{
-    position: relative;
-    box-sizing: border-box;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
 }
 
 /* footer */
