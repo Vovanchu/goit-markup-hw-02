@@ -54,6 +54,8 @@ a{
     color: #2196F3;
 }
 
+
+
 .portfolio{
         font-style: normal;
         font-weight: 500;
@@ -69,6 +71,10 @@ a{
 .portfolio-name:hover,
 .portfolio-name:focus{
     color: #2196F3;
+}
+
+.current{
+    accent-color: #2196F3;
 }
 
 .contacts{
@@ -181,13 +187,13 @@ a{
     background-color: #F5F4FA;
 }
 
-.team-title{
+.section-title{
         font-weight: 700;
-        font-size: 36px;
-        line-height: 42px;
-        text-align: center;
-        letter-spacing: 0.03em;
-        color: #212121;
+            font-size: 36px;
+            line-height: 42px;
+            text-align: center;
+            letter-spacing: 0.03em;
+            color: var(#212121);
 }
 
 .worker{
@@ -218,6 +224,7 @@ a{
 }
 
 .footer-link {
+    font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -226,6 +233,7 @@ a{
 }
 
 .footer-accent {
+    font-family: 'Raleway';
         font-weight: 700;
         font-size: 26px;
         line-height: 31px;
@@ -243,6 +251,7 @@ a{
 }
 
 .footer-gm{
+    font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
@@ -256,6 +265,7 @@ a{
 }
 
 .footer-tel{
+    font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;

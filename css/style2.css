@@ -16,7 +16,6 @@ a{
 
 .header{
     background: #FFFFFF;
-    display: inline-flex;
 }
 
 .logo-link{
@@ -27,8 +26,6 @@ a{
         line-height: 31px;
         letter-spacing: 0.03em;
         color: #2196F3;
-        margin-left: 215px;
-        margin-right: 93px;
 }
 
 .logo-accent{
@@ -39,10 +36,6 @@ a{
         line-height: 31px;
         letter-spacing: 0.03em;
         color: #000000;
-}
-
-.header-list{
-    display: inline-flex;
 }
 
 .studio{
@@ -66,6 +59,7 @@ a{
         font-size: 14px;
         line-height: 16px;
         letter-spacing: 0.02em;
+        accent-color: #2196F3;
 }
 
 .portfolio-name{
@@ -147,11 +141,21 @@ a{
 }
 
 .name{
-    color: #212121;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 36px;
+        letter-spacing: 0.06em;
+        color: #212121;
 }
 
 .typ{
-    color: #757575;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.03em;
+        color: #757575;
 }
 
 /* footer */
@@ -191,6 +195,7 @@ a{
 }
 
 .footer-gm{
+    font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
@@ -204,6 +209,7 @@ a{
 }
 
 .footer-tel{
+    font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
