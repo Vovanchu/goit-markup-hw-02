@@ -124,19 +124,34 @@ a{
 }
 
 .list-button{
-    background: #F5F4FA;
     border-radius: 4px;
 }
 
 .button{
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 26px;
         letter-spacing: 0.03em;
         color: #212121;
         cursor: pointer;
+}
+
+.button:hover,
+.button:focus{
+    background-color: #2196F3;
+}
+
+.button-txt:hover,
+.button-txt:focus{
+    color: #FFFFFF;
+}
+
+.name{
+    color: #212121;
+}
+
+.typ{
+    color: #757575;
 }
 
 /* footer */
