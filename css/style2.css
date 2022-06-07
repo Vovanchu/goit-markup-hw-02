@@ -154,9 +154,6 @@ a{
     line-height: 31px;
     letter-spacing: 0.03em;
     color: #2196F3;
-    padding-left: 200px;
-    padding-top: 60px;
-    margin-bottom: 20px;
 }
 
 .footer-accent {
@@ -169,32 +166,21 @@ a{
         color: #FFFFFF;
 }
 
-.footer-list{
-    padding-left: 165px;
-    margin-bottom: 60px;
-}
-
 .footer-address{
-    font-family: 'Roboto';
-        font-style: normal;
+    font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
         letter-spacing: 0.03em;
         color: #FFFFFF;
-        margin-top: 20px;
-        margin-bottom: 10px;
 }
 
 .footer-gm{
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
-        margin-bottom: 10px;
 }
 
 .footer-gm:hover,
@@ -203,8 +189,6 @@ a{
 }
 
 .footer-tel{
-    font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
